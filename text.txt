@@ -1,0 +1,31 @@
+    <p>
+    A heurística Gulosa utiliza uma abordagem simples para o problema, de maneira gulosa, pois ela irá sempre 
+    adicionar o filme com maior valor de horas, na categoria com maior numero de filmes permitidos. Nessa sequencia
+    a heurística preenche a lista de filmes sem preocupacao com o tempo total de tela, e sim com a adicao do maior
+    numero de horas o mais rapido possivel
+    <p><p>
+    A implementacão dessa heurística é simples, os dados são lidos a partir de um arquivo e texto, onde no
+    cabecalho temos o numero de filmes e de categorias, e os filmes permitidos por categoria. Os dados dos filmes
+    são armazenados em um Struct Filme. Ordenamos os filmes pela hora do seu término e salvamos no mesmo vetor
+    <p><p>
+    O filme é selcionado com criterio de não ter conflito com nenhum filme ja escolhido, e ser o filme com a maior
+    duração disponível para a categoria. Os filmes selecionados são salvos em um Struct, e quando o programa termina
+    o numero de filmes selecionados é imprimido no terminal, seguido pelas informacões de cada filme selcionado.
+    O total de horas é calculado no programa de comparacão.
+    <p><p>
+    Essa heurística tem como inavariante o fato de que nenhum filme pode ser selcionado duas vezes, e que 
+    sempre iremos selecionar primeiro o filme com maior duracão.
+    <p>
+    </div>
+
+    <p>
+    
+    A segunda heurística é uma variação da heurística Gulosa. A aleatoriedade é introduzida para garantir um melhor resultado.
+    Para isso, todo vez que é feita a escolha de um filme, há uma chance de 25% de um filme aleatório da lista ser escolhido,
+    assim o tempo de tela e de execucão podem ser otimizados.
+    <p><p>
+    o restante da heurística segue o padrão da Gulosa. Para implementar a aleatoriedade, foi usado um fator de 25% de chance para
+    ser escolhido um filme aleatoriamente ou não.
+    <p><p>
+    Temos as mesmas inavariantes da Gulosa, porem adicionamos a chance de um filme ser escolhido aleatoriamente com 25% de chance.
+    <p>
