@@ -1,0 +1,4 @@
+Professor, essas ultimas semanas tive que finalizar o PFE e ficou muito corrido para finalizar o projeto.
+Consegui fazer o código com openMP porém não adicionei nas comparacoes.
+Se tiver algo que possa fazer ainda depois da entrega por favor me fale.
+Obrigado
